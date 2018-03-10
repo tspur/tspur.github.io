@@ -1,9 +1,15 @@
+/*BODY*/
+body {
+    width: auto;
+    padding: 10px;
+    
+}
 /*HEADER*/
 header {
-    width: 1080px;
-    height: 100px;
+    height: 120px;
     font-size: 50px;
     font-family: Lobster;
     text-align: center;
     color: darkred;
+    border-style: dashed;
 }
