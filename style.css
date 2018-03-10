@@ -11,5 +11,12 @@ header {
     font-family: Lobster;
     text-align: center;
     color: darkred;
-    border-style: dashed;
+    #border-style: dashed;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
 }
