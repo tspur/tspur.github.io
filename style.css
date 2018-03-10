@@ -13,7 +13,10 @@ header {
     color: darkred;
     #border-style: dashed;
 }
-
+main {
+    padding:0px 200px;
+    text-align: center;
+}
 h1 {
     text-align: center;
 }
