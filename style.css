@@ -2,8 +2,8 @@
 header {
     width: 1080px;
     height: 100px;
-    background-color: darkred;
     font-size: 50px;
     font-family: Lobster;
     text-align: center;
+    color: darkred;
 }
