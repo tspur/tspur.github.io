@@ -1,8 +1,6 @@
 /*BODY*/
 body {
-    width: auto;
-    padding: 10px;
-    
+   
 }
 /*HEADER*/
 header {
@@ -11,7 +9,7 @@ header {
     font-family: Lobster;
     text-align: center;
     color: darkred;
-    #border-style: dashed;
+    
 }
 main {
     padding:0px 200px;
