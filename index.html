@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115620693-1"></script>
+<script src="jquery.js"></script>
+    <link rel="stylesheet" href="animate.css">
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -16,11 +18,16 @@
 </script>
 <title>Tanda Force | My HTML playground</title>
 </head>
-    
-    
+    <!--jQuery code only-->
+    <script>
+    $(document).ready(function() {
+            // Your code goes here
+            $("#tandalogo").addClass("animated flip");
+        });<!--End of jQuery-->
+    </script>
 <body>
     <div class="container-fluid">
-    <header><img src="tandaforcelogo.png" width="100px" height="100px" alt="tanda force logo">TandaForce.com</header>
+    <header><img id="tandalogo" src="tandaforcelogo.png" width="100px" height="100px" alt="tanda force logo">TandaForce.com</header>
     <main>
         <h1>Lorem Ipsum</h1>
         <h2>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."<br>
