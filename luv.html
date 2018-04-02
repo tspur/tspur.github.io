@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+ 
+<!-- If IE use the latest rendering engine -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+<!-- Set the page to the width of the device and set the zoon level -->
+<meta name="viewport" content="width = device-width, initial-scale = 1">
+<title>Bootstrap Basic Setup</title>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+ 
+<style>
+</style>
+ 
+</head>
+<body>
+    <!-- CONTAINERS -->
+<!-- container puts padding around itself while container-fluid fills the whole screen. Bootstap grids require a container. -->
+<div class="container">
+   <!-- page-header adds space aroundtext and enlarges it. It also adds an underline at the end -->
+<div class="page-header">
+    <h1>My Dog Zeus</h1>
+    </div>
+    
+    <!-- jumbotron enlarges fonts and puts everything in a gray box with rounded corners. If jumbotron is outside a container it fills the total width. You can change the styles by placing the changes after the Bootstrap CDN link -->
+<div class="jumbotron">
+<p>He is a black dog who is a window licker bread.  We think hes also gay, but thats OK with us.  Just wish he would get a job!</p>
+    
+    <!-- BUTTONS -->
+<!-- There are many built in button colors and sizes. If a link is to trigger in page functionality it should use role="button". The button element should be used in most situations -->
+<p>
+   <a href="#" class="btn btn-default btn-lg"></a>
+   <button type="submit" class="btn btn-danger" role="button">Button</button>   
+    <input type="button" value="Info" class = "btn btn-info">
+<button type="submit" class = "btn-primary btn-sm">Primary</button>
+<button type="submit" class = "btn btn-success btn-xs">Success</button>
+<button type="submit" class = "btn btn-warning btn-lg">Warning</button>
+<button type="submit" class = "btn btn-link btn-lg">Link</button>
+ 
+    </p>
+</div>
+</div>   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
