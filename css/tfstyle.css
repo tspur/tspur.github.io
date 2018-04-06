@@ -1,0 +1,22 @@
+body {
+    background-image: url("../imgs/balls.jpg");
+    background-size: cover;
+}
+.jumbotron {
+    text-align: center;
+}
+.title {
+    text-align: center;
+}
+.thumb1 {
+    height: 300px;
+    width: 300px;
+    transform: rotate(90deg);
+}
+.derp {
+    height: 300px;
+    width: 300px;
+}
+.row {
+    text-align: center;
+}

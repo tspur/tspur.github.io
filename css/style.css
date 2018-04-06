@@ -1,0 +1,23 @@
+/*BODY*/
+body {
+   
+}
+/*HEADER*/
+header {
+    height: 120px;
+    font-size: 50px;
+    font-family: Lobster;
+    text-align: center;
+    color: darkred;
+    
+}
+main {
+    padding:0px 200px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
