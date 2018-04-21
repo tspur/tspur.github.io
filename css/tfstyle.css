@@ -11,12 +11,19 @@ body {
 .thumb1 {
     height: 300px;
     width: 300px;
-    transform: rotate(90deg);
+   
 }
 .derp {
     height: 300px;
     width: 300px;
 }
+.kat {
+    height: 300px;
+    width: 300px;
+}
 .row {
     text-align: center;
+}
+.nav {
+   margin: 30px;
 }
