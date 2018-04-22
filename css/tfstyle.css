@@ -7,23 +7,24 @@ body {
 }
 .title {
     text-align: center;
+    color: antiquewhite;
 }
 .thumb1 {
     height: 300px;
     width: 300px;
-   
 }
-.derp {
-    height: 300px;
-    width: 300px;
+ul {
+    list-style-type: none;
+    height: 100%; /* Full height */
+    margin: 0;
+    padding: 0;
 }
-.kat {
-    height: 300px;
-    width: 300px;
+li {
+   padding: 0px 5px 0px 0px;
+   float: left;
 }
-.row {
-    text-align: center;
-}
-.nav {
-   margin: 30px;
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
 }
