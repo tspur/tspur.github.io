@@ -1,0 +1,14 @@
+/*Navbar*/
+.navbar {
+    background-color: #7c150d;
+}
+/*Jumbotron*/
+.jumbotron {
+    text-align: center;
+    font-family: lobster;
+    color: #7c150d;
+}
+
+a {
+    color: antiquewhite;
+}
